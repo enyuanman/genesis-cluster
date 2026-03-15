@@ -12,5 +12,3 @@ spec:
     name: flux-system
   path: ./infrastructure/controllers/staging
   prune: true
-  dependsOn:
-    - name: flux-system  # traefik comes up after flux itself is ready
