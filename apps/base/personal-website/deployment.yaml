@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: personal-website
-          image: nginx:alpine
+          image: ghcr.io/enyuanman/personal-website:1.0.0
           ports:
             - containerPort: 80
